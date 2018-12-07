@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: './home/home.module#HomePageModule' },
+  { path: '', redirectTo: 'list-reddit-posts', pathMatch: 'full' },
+  { path: 'list-reddit-posts', loadChildren: './reddit/list-reddit-posts/list-reddit-posts.module#ListRedditPostsPageModule' }
 ];
 
 @NgModule({

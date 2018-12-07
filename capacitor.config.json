@@ -1,0 +1,6 @@
+{
+  "appId": "info.marlonpatrick.giflist",
+  "appName": "giflist",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}
